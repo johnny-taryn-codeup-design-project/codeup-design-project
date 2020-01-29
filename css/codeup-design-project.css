@@ -1,2 +1,28 @@
-font-family: 'Anton', sans-serif;
-font-family: 'Abel', sans-serif;
+/*font-family: 'Anton', sans-serif;*/
+/*font-family: 'Abel', sans-serif;*/
+
+body {
+    background-color: #e6e6e6;
+}
+
+.btn-circle {
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1;
+    border: 10px solid white;
+    border-radius: 62.5px;
+    background-color: blue;
+}
+
+.badge-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: blue;
+}

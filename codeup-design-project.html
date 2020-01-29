@@ -19,21 +19,43 @@
 
 </head>
 <body>
+<div class="container-fluid">
     <!-------Bootstrap Nav Bar------->
 
 
     <!-------Header section------->
-    <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
-    <h2>FROM PARK CITY, UTAH</h2>
+    <h1 class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+    <h2 class="=text-center">FROM PARK CITY, UTAH</h2>
 
     <!-------Bootstrap Secondary Nav Bar------->
+    <div class="row text-center d-flex justify-content-center" id="circle-row">
+        <nav class="col-6">
+            <button type="button" class="btn btn-default btn-circle" id="design">DESIGN</button>
+            <button type="button" class="btn btn-default btn-circle" id="develop">DEVELOP</button>
+            <button type="button" class="btn btn-default btn-circle" id="support">SUPPORT</button>
+            <button type="button" class="btn btn-default btn-circle" id="host">HOST</button>
+        </nav>
+    </div>
 
 
     <!-------Bootstrap line break------->
     <hr>
+</div>
 
     <!-------Bootstrap Selected Work------->
-
+    <div class="card">
+        <h3>SELECTED WORK</h3>
+        <div class="card">
+            <img src="img/apple-ipad.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">FEATURED PROJECTS</h5>
+                <p class="card-text"></p>
+                <a href="#">
+                    <span class="badge badge-primary badge-circle text-center">D</span>
+                </a>
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
