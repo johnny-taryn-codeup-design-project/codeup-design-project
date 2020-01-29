@@ -19,43 +19,67 @@
 
 </head>
 <body>
-<div class="container-fluid">
-    <!-------Bootstrap Nav Bar------->
+    <div class="container-fluid">
+        <!-------Bootstrap Nav Bar------->
 
 
-    <!-------Header section------->
-    <h1 class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-    <h2 class="=text-center">FROM PARK CITY, UTAH</h2>
+        <!-------Header section------->
+        <h1 class="text-center" id="fancy-header">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+        <h2 class="text-center" id="not-so-fancy">FROM PARK CITY, UTAH</h2>
 
-    <!-------Bootstrap Secondary Nav Bar------->
-    <div class="row text-center d-flex justify-content-center" id="circle-row">
-        <nav class="col-6">
-            <button type="button" class="btn btn-default btn-circle" id="design">DESIGN</button>
-            <button type="button" class="btn btn-default btn-circle" id="develop">DEVELOP</button>
-            <button type="button" class="btn btn-default btn-circle" id="support">SUPPORT</button>
-            <button type="button" class="btn btn-default btn-circle" id="host">HOST</button>
-        </nav>
+        <!-------Bootstrap Secondary Nav Bar------->
+        <div class="text-center d-flex justify-content-center" id="circle-row">
+            <nav class="row">
+                <div class="col-6">
+                    <button type="button" class="btn btn-default btn-circle" id="design">DESIGN</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-default btn-circle" id="develop">DEVELOP</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-default btn-circle" id="support">SUPPORT</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-default btn-circle" id="host">HOST</button>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-------Bootstrap line break------->
+        <hr>
     </div>
-
-
-    <!-------Bootstrap line break------->
-    <hr>
-</div>
 
     <!-------Bootstrap Selected Work------->
     <div class="card">
         <h3>SELECTED WORK</h3>
         <div class="card">
             <img src="img/apple-ipad.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-                <h5 class="card-title">FEATURED PROJECTS</h5>
-                <p class="card-text"></p>
-                <a href="#">
-                    <span class="badge badge-primary badge-circle text-center">D</span>
-                </a>
+            <div class="card-body text-center d-flex justify-content-between">
+
+                <!-------Bootstrap card title------->
+                <div>
+                    <h5 class="card-title">FEATURED PROJECTS</h5>
+                    <p class="card-text"></p>
+                </div>
+
+                <!-------Bootstrap card badges------->
+                <div>
+                    <a href="#" class="">
+                        <span class="badge badge-primary badge-circle text-center">D</span></a>
+                    <a href="#">
+                        <span class="badge badge-primary badge-circle text-center">D</span></a>
+                    <a href="#">
+                        <span class="badge badge-primary badge-circle text-center">S</span></a>
+                    <a href="#">
+                        <span class="badge badge-primary badge-circle text-center">H</span></a>
+                </div>
             </div>
         </div>
     </div>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
