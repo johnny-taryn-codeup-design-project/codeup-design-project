@@ -1,5 +1,5 @@
 body {
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
     font-family: 'Abel', sans-serif;
 }
 
@@ -8,41 +8,51 @@ h1,h2,h3,h4,h5,h6{
 
 }
 #fancy-header{
-    font-size: 64px;
+    font-size: 32px;
     margin: 15%;
 }
 
 #not-so-fancy{
-    font-size: 48px;
+    font-size: 28px;
     margin: 15%;
 }
 
 .btn-circle {
-    width: 250px;
-    height: 250px;
+    width: 105px;
+    height: 105px;
     text-align: center;
     padding: 6px 0;
+    margin: 5px;
     font-size: 12px;
     line-height: 1;
-    border: 10px solid #fff;
-    border-radius: 125px;
+    border: 5px solid #fff;
+    border-radius: 52.5px;
     background-color: blue;
 }
 
 .badge-circle {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     text-align: center;
-    padding: 6px 0;
+    padding: 9px 0;
     font-size: 12px;
-    border-radius: 15px;
-    background-color: blue;
+    border-radius: 9px;
+    color: black;
+    font-weight: bold;
 }
 
 #design,#develop,#support,#host{
     font-family: 'Anton', sans-serif;
-    font-size: 48px;
+    font-size: 28px;
     color: #fff;
+}
+
+.selected-work-card {
+    background-color: #f0f0f0
+}
+
+.img-border {
+    border: 5px solid #e6e6e6;
 }
 
 #design{
@@ -57,4 +67,27 @@ h1,h2,h3,h4,h5,h6{
 }
 #host{
     background: #00aba9;
+}
+
+#badge1 {
+    background: #e6563b;
+    font-weight: bold;
+}
+
+#badge2 {
+    background: #eb9d3a;
+}
+
+#badge3 {
+    background: #7cb06c;
+}
+
+#badge4 {
+    background: #00aba9;
+}
+
+.badge {
+    font-family: Anton;
+    font-weight: bold;
+    font-size: 7px;
 }
