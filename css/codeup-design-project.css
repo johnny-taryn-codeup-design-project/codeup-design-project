@@ -1,12 +1,14 @@
 body {
     background-color: #f0f0f0;
-    font-family: 'Abel', sans-serif;
     margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6{
+.anton{
     font-family: 'Anton', sans-serif;
+}
 
+.abel{
+    font-family: 'Abel', sans-serif;
 }
 /*---------F Navigation---------*/
 .f-navbar{
@@ -33,57 +35,47 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-.navbar-nav {
-    display: flex;
-    justify-content: center;
-}
-
 .nav-link {
     margin: 5px 10px;
     color: black;
 }
 
 /*---------Circle Navigation links---------*/
-.nav-circles {
-    margin: 30px 50px 100px;
-}
 
-.four-circles {
-    margin: 30px 50px 100px;
-}
-
-.btn-circle {
-    width: 105px;
+.circle {
     height: 105px;
-    text-align: center;
-    padding: 6px 0;
-    margin: 5px;
-    line-height: 1;
-    border: 5px solid #fff;
-    border-radius: 52.5px;
-    background-color: blue;
+    width: 105px;
+    border-radius: 50%;
+    border: 6px solid #fff;
 }
 
-.badge {
-    width: 18px;
-    height: 18px;
-    text-align: center;
-    font-size: 12px;
-    border-radius: 9px;
-    color: black;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
+#button1 {
+    background: #E6563B;
+    color: white;
+}
+#button2 {
+    background: #DEA03D;
+    color: white;
+}
+#button3 {
+    background: #7CB06C;
+    color: white;
+}
+#button4 {
+    background: #00ABA9;
+    color: white;
 }
 
-#design,#develop,#support,#host{
-    font-family: 'Anton', sans-serif;
-    font-size: 28px;
-    color: #fff;
+/*---------card---------*/
+
+.selected-work{
+    margin-top: 25%;
 }
 
 .selected-work-card {
     background-color: #f0f0f0;
 }
+
 
 .img-border {
     border: 10px solid #e6e6e6;
@@ -98,49 +90,39 @@ h1,h2,h3,h4,h5,h6{
     border: none;
 }
 
-
-
-#design{
-    background: #e6563b;
+.card-body {
+    background-color: #f0f0f0;
+    padding: 0;
 }
 
-#develop{
-    background: #eb9d3a;
-}
-#support{
-    background: #7cb06c;
-}
-#host{
-    background: #00aba9;
-}
 
-#badge1 {
+/*---------card badges---------*/
+.badge {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 9px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+.badge1 {
     background: #e6563b;
     font-weight: bold;
 }
 
-#badge2 {
+.badge2 {
     background: #eb9d3a;
 }
 
-#badge3 {
+.badge3 {
     background: #7cb06c;
 }
 
-#badge4 {
+.badge4 {
     background: #00aba9;
 }
-
-.card-body {
-    background-color: #f0f0f0;
-}
-
-/*.badge {*/
-/*    font-family: Anton;*/
-/*    font-weight: bold;*/
-/*    font-size: 7px;*/
-/*    text-align: center;*/
-/*}*/
 
 
 
