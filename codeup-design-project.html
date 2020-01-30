@@ -3,14 +3,14 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" rel="stylesheet">
 
     <!-- Linking the CSS Stylesheet-->
-    <link rel="stylesheet" href="css/codeup-design-project.css">
+    <link href="css/codeup-design-project.css" rel="stylesheet">
 
     <!-- Linking Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
             <!-- Image and text -->
             <nav class="col-12 navbar f-navbar">
                 <a class="navbar-brand d-flex flex-column mx-auto" href="#">
-                    <img src="img/logo.png" width="105" height="105" class="logo" alt="Logo graphic">
+                    <img alt="Logo graphic" class="logo" height="105" src="img/logo.png" width="105">
                 </a>
             </nav>
             <div class="col-12 navbar">
@@ -65,7 +65,7 @@
                     </div>
                     <!-- Image -->
                     <a class="navbar-brand d-flex flex-column mx-auto" href="#">
-                        <img src="img/logo.png" width="105" height="105" class="logo" alt="Logo graphic">
+                        <img alt="Logo graphic" class="logo" height="105" src="img/logo.png" width="105">
                     </a>
                     <div>
                         <a class="nav-item nav-link abel" href="#">BLOG</a>
@@ -91,10 +91,10 @@
         <!-------Bootstrap Secondary Nav Bar------->
         <div class="container circle-container">
             <div class="row justify-content-sm-center anton">           <!-- Adjust sizes for diff sizes -->
-                <div class="col-6 col-sm-auto mb-2 sm-circle"><button type="button" class="circle" id="button1">Design</button></div>
-                <div class="col-6 col-sm-auto mb-2 sm-circle"><button type="button" class="circle" id="button2">Develop</button></div>
-                <div class="col-6 col-sm-auto mt-2"><button type="button" class="circle" id="button3">Support</button></div>
-                <div class="col-6 col-sm-auto mt-2"><button type="button" class="circle" id="button4">Host</button></div>
+                <div class="col-6 col-sm-auto mb-2 sm-circle"><button class="circle" id="button1" type="button">Design</button></div>
+                <div class="col-6 col-sm-auto mb-2 sm-circle"><button class="circle" id="button2" type="button">Develop</button></div>
+                <div class="col-6 col-sm-auto mt-2"><button class="circle" id="button3" type="button">Support</button></div>
+                <div class="col-6 col-sm-auto mt-2"><button class="circle" id="button4" type="button">Host</button></div>
             </div>
         </div>
 
@@ -105,132 +105,168 @@
 
     <!-------Bootstrap Selected Work------->
     <div class="container row">
-        <div class="card border-0 selected-work-card mx-auto">
+
+        <!-------Bootstrap main card------->
+        <div class="card border-0 selected-work-card mx-auto col-md-8">
             <p class="mx-auto abel selected-work">SELECTED WORK</p>
 
             <!--card one-->
             <div class="row">
-                <div class="card picture col-sm-6">
-                    <img src="img/apple-ipad.jpg" class="card-img-top img-border" alt="...">
-                    <div class="card-body d-flex justify-content-between">
+                    <div class="card picture col-sm-6">
+                        <img alt="..." class="card-img-top img-border" src="img/apple-ipad.jpg">
+                        <div class="card-body d-flex justify-content-between">
 
-                        <!-------Bootstrap card title------->
-                        <div>
-                            <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                            <p class="card-text"></p>
-                        </div>
+                            <!-------Bootstrap card title------->
+                            <div>
+                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
+                                <p class="card-text"></p>
+                            </div>
 
-                        <!-------Bootstrap card badges------->
-                        <div>
-                            <a class=href="#">
-                                <span class="badge badge-primary anton badge1">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge2">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge3">S</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge4">H</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!--card 2-->
-                <div class="card picture col-sm-6">
-                    <img src="img/macbook.jpg" class="card-img-top img-border" alt="...">
-                    <div class="card-body d-flex justify-content-between">
-
-                        <!-------Bootstrap card title------->
-                        <div>
-                            <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                            <p class="card-text"></p>
-                        </div>
-
-                        <!-------Bootstrap card badges------->
-                        <div>
-                            <a class=href="#">
-                                <span class="badge badge-primary anton badge1">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge2">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge3">S</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge4">H</span></a>
+                            <!-------Bootstrap card badges------->
+                            <div>
+                                <a class=href="#">
+                                    <span class="badge badge-primary anton badge1">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge2">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge3">S</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge4">H</span></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+
+                    <!--card 2-->
+                    <div class="card picture col-sm-6">
+                        <img alt="..." class="card-img-top img-border" src="img/macbook.jpg">
+                        <div class="card-body d-flex justify-content-between">
+
+                            <!-------Bootstrap card title------->
+                            <div>
+                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
+                                <p class="card-text"></p>
+                            </div>
+
+                            <!-------Bootstrap card badges------->
+                            <div>
+                                <a class=href="#">
+                                    <span class="badge badge-primary anton badge1">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge2">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge3">S</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge4">H</span></a>
+                            </div>
+                        </div>
+                    </div><!--end card two-->
+            </div><!--end row div-->
 
             <!--card 3-->
             <div class="row">
-                <div class="card picture col-sm-6">
-                    <img src="img/man.jpg" class="card-img-top img-border" alt="...">
-                    <div class="card-body d-flex justify-content-between">
+                    <div class="card picture col-sm-6">
+                        <img alt="..." class="card-img-top img-border" src="img/man.jpg">
+                        <div class="card-body d-flex justify-content-between">
 
-                        <!-------Bootstrap card title------->
-                        <div>
-                            <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                            <p class="card-text"></p>
-                        </div>
+                            <!-------Bootstrap card title------->
+                            <div>
+                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
+                                <p class="card-text"></p>
+                            </div>
 
-                        <!-------Bootstrap card badges------->
-                        <div>
-                            <a class=href="#">
-                                <span class="badge badge-primary anton badge1">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge2">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge3">S</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge4">H</span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!--card 4-->
-                <div class="card picture col-sm-6">
-                    <img src="img/security.jpg" class="card-img-top img-border" alt="...">
-                    <div class="card-body d-flex justify-content-between">
-
-                        <!-------Bootstrap card title------->
-                        <div>
-                            <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                            <p class="card-text"></p>
-                        </div>
-
-                        <!-------Bootstrap card badges------->
-                        <div>
-                            <a class=href="#">
-                                <span class="badge badge-primary anton badge1">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge2">D</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge3">S</span></a>
-                            <a href="#">
-                                <span class="badge badge-primary anton badge4">H</span></a>
+                            <!-------Bootstrap card badges------->
+                            <div>
+                                <a class=href="#">
+                                    <span class="badge badge-primary anton badge1">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge2">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge3">S</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge4">H</span></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
+
+                    <!--card 4-->
+                    <div class="card picture col-sm-6">
+                        <img alt="..." class="card-img-top img-border" src="img/security.jpg">
+                        <div class="card-body d-flex justify-content-between">
+
+                            <!-------Bootstrap card title------->
+                            <div>
+                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
+                                <p class="card-text"></p>
+                            </div>
+
+                            <!-------Bootstrap card badges------->
+                            <div>
+                                <a class=href="#">
+                                    <span class="badge badge-primary anton badge1">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge2">D</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge3">S</span></a>
+                                <a href="#">
+                                    <span class="badge badge-primary anton badge4">H</span></a>
+                            </div>
+                        </div>
+                    </div><!--end card 4 div-->
+            </div><!--end row div-->
+
         </div>
-                        <!--        end of main card-->
-        <div class="container twitter">
-            <p>THE LAST</p>
-        </div>
+        <!--end of main card-->
+
+            <!--Bootstrap relevant and twitter feed-->
+            <div class="col-md-4">
+
+                <div class="container twitter">
+                    <p class="abel ">THE LAST</p>
+                    <div class="media">
+                        <img alt="mobile phone" src="img/mobile-phone.jpg">
+                        <div class="media-body">
+                            <h5 class="anton">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+                        </div>
+                    </div>
+                </div><!--End of first relevant feed-->
+
+                <div class="container twitter">
+                    <div class="media">
+                        <img alt="Head of tech woman" src="img/head.jpg">
+                        <div class="media-body">
+                            <h5 class="anton">NIBBLER AWESOME WEBSITE TESTING</h5>
+                        </div>
+                    </div>
+                </div><!--End of first relevant feed-->
+
+                <div class="container twitter">
+                    <div class="media">
+                        <img alt="Ipad" src="img/ipad.jpg">
+                        <div class="media-body">
+                            <h5 class="anton">HOW TO GET GOOGLE TO LIKE YOU</h5>
+                        </div>
+                    </div>
+                </div><!--End of first relevant feed-->
+
+            </div><!--End of 4 column-->
+
+
     </div>
+    <!--end of selected work card-->
 
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script crossorigin="anonymous"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
             integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
             integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
 
 </body>
