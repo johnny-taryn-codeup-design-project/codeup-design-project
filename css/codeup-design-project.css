@@ -74,13 +74,14 @@ body {
 /*---------card---------*/
 
 
-.selected-work{
-    margin-top: 25%;
+.selected-work, .twitter {
+    margin-top: 5%;
 }
+
 
 .selected-work-card {
     background-color: #f0f0f0;
-    width: 80%;
+    /*width: 80%;*/
 }
 
 
@@ -131,5 +132,17 @@ body {
     background: #00aba9;
 }
 
+.img {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
 
+.fancy-tweet {
+    font-size: 18px;
+}
+
+.fa-twitter {
+    color: #38a1f3;
+}
 
