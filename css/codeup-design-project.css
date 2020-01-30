@@ -1,23 +1,39 @@
 body {
     background-color: #f0f0f0;
     font-family: 'Abel', sans-serif;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Anton', sans-serif;
 
 }
+/*---------F Navigation---------*/
+.f-navbar{
+    background: #ffffff;
+    margin: 50px 0;
+    height: calc(105px - 40px);
+}
+.logo{
+    /*margin-bottom: 20px;*/
+}
+.type-logo{
+    font-size: 32px;
+}
+
+/*---------Header---------*/
 #fancy-header{
     font-size: 32px;
     margin: 40px 0;
-    /*margin: 15%;*/
 }
 
 #not-so-fancy{
     font-size: 28px;
-    /*margin: 15%;*/
+    margin: 40px 0;
+
 }
 
+/*---------Circle Navigation links---------*/
 .nav-circles {
     margin: 30px 50px 100px;
 }
