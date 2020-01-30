@@ -41,6 +41,10 @@ body {
 }
 
 /*---------Circle Navigation links---------*/
+.circle-container {
+    width: 80%;
+}
+
 
 .circle {
     height: 105px;
@@ -66,7 +70,12 @@ body {
     color: white;
 }
 
+/*.sm-circle {*/
+/*    width: 105px;*/
+/*}*/
+
 /*---------card---------*/
+
 
 .selected-work{
     margin-top: 25%;
@@ -74,6 +83,7 @@ body {
 
 .selected-work-card {
     background-color: #f0f0f0;
+    width: 80%;
 }
 
 
