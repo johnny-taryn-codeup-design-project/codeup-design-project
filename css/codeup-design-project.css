@@ -9,12 +9,17 @@ h1,h2,h3,h4,h5,h6{
 }
 #fancy-header{
     font-size: 32px;
-    margin: 15%;
+    margin: 40px 0;
+    /*margin: 15%;*/
 }
 
 #not-so-fancy{
     font-size: 28px;
-    margin: 15%;
+    /*margin: 15%;*/
+}
+
+.nav-circles {
+    margin: 30px 50px 100px;
 }
 
 .btn-circle {
@@ -30,15 +35,15 @@ h1,h2,h3,h4,h5,h6{
     background-color: blue;
 }
 
-.badge-circle {
+.badge {
     width: 18px;
     height: 18px;
     text-align: center;
-    padding: 9px 0;
     font-size: 12px;
     border-radius: 9px;
     color: black;
     font-weight: bold;
+    font-family: 'Anton', sans-serif;
 }
 
 #design,#develop,#support,#host{
@@ -48,12 +53,23 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .selected-work-card {
-    background-color: #f0f0f0
+    background-color: #f0f0f0;
 }
 
 .img-border {
-    border: 5px solid #e6e6e6;
+    border: 10px solid #e6e6e6;
 }
+
+.picture {
+    padding: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: none;
+}
+
+
 
 #design{
     background: #e6563b;
@@ -86,8 +102,16 @@ h1,h2,h3,h4,h5,h6{
     background: #00aba9;
 }
 
-.badge {
-    font-family: Anton;
-    font-weight: bold;
-    font-size: 7px;
+.card-body {
+    background-color: #f0f0f0;
 }
+
+/*.badge {*/
+/*    font-family: Anton;*/
+/*    font-weight: bold;*/
+/*    font-size: 7px;*/
+/*    text-align: center;*/
+/*}*/
+
+
+

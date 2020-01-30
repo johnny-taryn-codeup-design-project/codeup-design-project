@@ -21,14 +21,20 @@
 <body>
     <div class="container-fluid">
         <!-------Bootstrap Nav Bar------->
-
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src=img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Bootstrap
+            </a>
+        </nav>
 
         <!-------Header section------->
         <h1 class="text-center" id="fancy-header">VISUAL DESIGN & WEB DEVELOPMENT</h1>
         <h2 class="text-center" id="not-so-fancy">FROM PARK CITY, UTAH</h2>
 
         <!-------Bootstrap Secondary Nav Bar------->
-        <div class="text-center d-flex justify-content-center" id="circle-row">
+        <div class="text-center d-flex justify-content-center nav-circles" id="circle-row">
             <nav class="row">
                 <div class="col-6">
                     <button type="button" class="btn btn-default btn-circle" id="design">DESIGN</button>
@@ -53,9 +59,9 @@
     <!-------Bootstrap Selected Work------->
     <div class="card border-0 selected-work-card">
         <p class="mx-auto">SELECTED WORK</p>
-        <div class="card">
+        <div class="card picture">
             <img src="img/apple-ipad.jpg" class="card-img-top img-border"alt="...">
-            <div class="card-body text-center d-flex justify-content-between">
+            <div class="card-body d-flex justify-content-between">
 
                 <!-------Bootstrap card title------->
                 <div>
@@ -64,15 +70,15 @@
                 </div>
 
                 <!-------Bootstrap card badges------->
-                <div class="align-middle">
+                <div>
+                    <a class=href="#">
+                        <span class="badge badge-primary" id="badge1">D</span></a>
                     <a href="#">
-                        <span class="badge badge-primary badge-circle" id="badge1">D</span></a>
+                        <span class="badge badge-primary" id="badge2">D</span></a>
                     <a href="#">
-                        <span class="badge badge-primary badge-circle text-center" id="badge2">D</span></a>
+                        <span class="badge badge-primary" id="badge3">S</span></a>
                     <a href="#">
-                        <span class="badge badge-primary badge-circle text-center" id="badge3">S</span></a>
-                    <a href="#">
-                        <span class="badge badge-primary badge-circle text-center" id="badge4">H</span></a>
+                        <span class="badge badge-primary" id="badge4">H</span></a>
                 </div>
             </div>
         </div>
