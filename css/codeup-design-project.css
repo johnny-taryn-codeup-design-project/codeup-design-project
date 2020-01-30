@@ -33,8 +33,22 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    margin: 5px 10px;
+    color: black;
+}
+
 /*---------Circle Navigation links---------*/
 .nav-circles {
+    margin: 30px 50px 100px;
+}
+
+.four-circles {
     margin: 30px 50px 100px;
 }
 
@@ -44,7 +58,6 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     padding: 6px 0;
     margin: 5px;
-    font-size: 12px;
     line-height: 1;
     border: 5px solid #fff;
     border-radius: 52.5px;
