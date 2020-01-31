@@ -13,12 +13,13 @@ body {
 /*---------F Navigation---------*/
 .f-navbar{
     background: #ffffff;
-    margin: 50px 0;
-    height: calc(105px - 40px);
+    /*margin: 50px 0;*/
+    /*height: calc(105px - 40px);*/
 }
-.logo{
-    /*margin-bottom: 20px;*/
-}
+/*.logo{*/
+/*    position: relative;*/
+
+/*}*/
 .type-logo{
     font-size: 32px;
 }
@@ -73,6 +74,9 @@ body {
 
 /*---------card---------*/
 
+.featured {
+    font-size: 12px;
+}
 
 .selected-work, .twitter {
     margin-top: 5%;
@@ -133,8 +137,8 @@ body {
 }
 
 .img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin: 5px;
 }
 
@@ -146,3 +150,12 @@ body {
     color: #38a1f3;
 }
 
+.article {
+     font-size: 18px;
+     line-height: 1.5em;
+ }
+
+.tweet {
+    font-size: 12px;
+    line-height: 15px;
+}

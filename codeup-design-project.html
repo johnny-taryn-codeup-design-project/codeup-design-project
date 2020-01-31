@@ -23,7 +23,7 @@
 <body>
 
     <!-------Nav xs navbar Container------->
-    <div class="container d-block d-sm-none">
+    <div class="container-fluid d-block d-sm-none">
         <div class="row">
             <!-------Bootstrap Nav Bar------->
             <!-- Image and text -->
@@ -31,11 +31,10 @@
                 <a class="navbar-brand d-flex flex-column mx-auto" href="#">
                     <img alt="Logo graphic" class="logo" height="105" src="img/logo.png" width="105">
                 </a>
-            </nav>
-            <div class="col-12 navbar">
-                <p class="mx-auto type-logo abel">codeup design</p>
-            </div>
-            <div class="navbar-nav d-flex flex-row mx-auto">
+                <div class="col-12 navbar">
+                    <p class="mx-auto type-logo abel ">codeup design</p>
+                </div>
+                <div class="navbar-nav d-flex flex-row mx-auto">
                 <div>
                     <a class="nav-item nav-link abel" href="#">SERVICES</a>
                 </div>
@@ -49,12 +48,13 @@
                     <a class="nav-item nav-link abel" href="#">CONTACT</a>
                 </div>
             </div>
+            </nav>
         </div>
     </div>
 
 
     <!-------Bootstrap small Nav Bar------->
-    <div class="container d-none d-sm-block d-md-none">
+    <div class="container-fluid d-none d-sm-block d-md-none">
         <div class="row">
             <!-------Bootstrap Nav Bar------->
             <nav class="col-12 navbar f-navbar">
@@ -85,12 +85,12 @@
 
 
     <!-------Bootstrap medium and up Nav Bar------->
-    <div class="container d-none d-sm-none d-md-block">
+    <div class="container-fluid d-none d-sm-none d-md-block">
         <div class="row">
             <!-------Bootstrap Nav Bar------->
-            <nav class="w-100 navbar f-navbar">
+            <nav class= "w-100 navbar f-navbar">
                 <!-- Image -->
-                <div class="col-6 navbar ">
+                <div class="col-6">
                     <a class="navbar-brand d-flex flex-row mx-auto" href="#">
                         <img alt="Logo graphic" class="logo" height="105" src="img/logo.png" width="105">
                     </a>
@@ -151,8 +151,7 @@
 
                             <!-------Bootstrap card title------->
                             <div>
-                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                                <p class="card-text"></p>
+                                <p class="card-title text-center abel featured">FEATURED PROJECTS</p>
                             </div>
 
                             <!-------Bootstrap card badges------->
@@ -176,8 +175,7 @@
 
                             <!-------Bootstrap card title------->
                             <div>
-                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                                <p class="card-text"></p>
+                                <p class="card-title text-center abel featured">FEATURED PROJECTS</p>
                             </div>
 
                             <!-------Bootstrap card badges------->
@@ -203,8 +201,7 @@
 
                             <!-------Bootstrap card title------->
                             <div>
-                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                                <p class="card-text"></p>
+                                <p class="card-title text-center abel featured">FEATURED PROJECTS</p>
                             </div>
 
                             <!-------Bootstrap card badges------->
@@ -228,8 +225,7 @@
 
                             <!-------Bootstrap card title------->
                             <div>
-                                <p class="card-title text-center abel">FEATURED PROJECTS</p>
-                                <p class="card-text"></p>
+                                <p class="card-title text-center abel featured">FEATURED PROJECTS</p>
                             </div>
 
                             <!-------Bootstrap card badges------->
@@ -257,9 +253,7 @@
                     <p class="abel">THE LAST</p>
                     <div class="media">
                         <img alt="mobile phone" class="img" src="img/mobile-phone.jpg">
-                        <div class="media-body">
-                            <h5 class="anton">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
-                        </div>
+                            <h5 class="anton article">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
                     </div>
                 </div><!--End of first relevant feed-->
 
@@ -267,7 +261,7 @@
                     <div class="media">
                         <img alt="Head of tech woman" class="img" src="img/head.jpg">
                         <div class="media-body">
-                            <h5 class="anton">NIBBLER AWESOME WEBSITE TESTING</h5>
+                            <h5 class="anton article">NIBBLER AWESOME WEBSITE TESTING</h5>
                         </div>
                     </div>
                 </div><!--End of first relevant feed-->
@@ -276,22 +270,21 @@
                     <div class="media">
                         <img alt="Ipad" class="img" src="img/ipad.jpg">
                         <div class="media-body">
-                            <h5 class="anton">HOW TO GET GOOGLE TO LIKE YOU</h5>
+                            <h5 class="anton article">HOW TO GET GOOGLE TO LIKE YOU</h5>
                         </div>
                     </div>
                 </div><!--End of first relevant feed-->
 
-                <div>
-                    <div class="media mt-5">
+                    <div class="media mt-5 mx-2">
                         <i class="fab fa-twitter p-2 fa-1x"></i>
                         <div class="media-body abel">
                             <p class="mt-0 fancy-tweet">LAST TWEET</p>
                         </div>
                     </div>
-                    <div class="abel">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    <div class="abel mx-3 tweet">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
                         sollicitudin.
                     </div>
-                </div>
+
 
             </div><!--End of 4 column-->
 
