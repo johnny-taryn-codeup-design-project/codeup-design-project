@@ -1,6 +1,7 @@
 body {
     background-color: #f0f0f0;
     margin: 0;
+    padding: 0;
 }
 
 .anton{
@@ -12,18 +13,29 @@ body {
 }
 /*---------F Navigation---------*/
 .f-navbar{
-    background: #ffffff;
-    /*margin: 50px 0;*/
-    /*height: calc(105px - 40px);*/
+    margin: 50px 0;
+    background: transparent;
 }
-/*.logo{*/
-/*    position: relative;*/
-
-/*}*/
+.white-stripe{
+    background: #fff;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+}
 .type-logo{
     font-size: 32px;
+    margin: 5px;
 }
-
+.on-top{
+    z-index: 2;
+}
+.xs-stripe{
+    background: #fff;
+    height: 60px;
+    position: absolute;
+    margin-bottom: 125px;
+    z-index: 1;
+}
 /*---------Header---------*/
 #fancy-header{
     font-size: 32px;
@@ -93,11 +105,13 @@ body {
     border: 10px solid #e6e6e6;
 }
 
-.picture {
-    padding: 20px;
+.picture img{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
 }
 
-.card {
+.card{
     background-color: #f0f0f0;
     border: none;
 }
@@ -116,12 +130,11 @@ body {
     font-size: 12px;
     border-radius: 9px;
     color: black;
-    font-weight: bold;
+    font-weight: normal;
     font-family: 'Anton', sans-serif;
 }
 .badge1 {
     background: #e6563b;
-    font-weight: bold;
 }
 
 .badge2 {
@@ -140,6 +153,7 @@ body {
     height: 40px;
     width: 40px;
     margin: 5px;
+    object-fit: cover;
 }
 
 .fancy-tweet {
