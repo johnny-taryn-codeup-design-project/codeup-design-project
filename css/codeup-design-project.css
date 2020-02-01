@@ -1,7 +1,10 @@
-body {
-    background-color: #f0f0f0;
+*{
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
 }
 
 .container-fluid {
@@ -15,31 +18,44 @@ body {
 .abel{
     font-family: 'Abel', sans-serif;
 }
+
 /*---------F Navigation---------*/
 .f-navbar{
-    margin: 50px 0;
+    margin: 30px 0;
     background: transparent;
+    padding: 0;
 }
+
+.type-logo{
+    font-size: 32px;
+    margin: 5px;
+    border: none;
+}
+
+.nav-link {
+    margin: 5px 10px;
+    color: #000;
+}
+
+.on-top{
+    z-index: 2;
+}
+
+.xs-stripe{
+    background: #fff;
+    height: 60px;
+    position: absolute;
+    margin-bottom: 110px;
+    z-index: 1;
+}
+
 .white-stripe{
     background: #fff;
     height: 60px;
     position: absolute;
     z-index: 1;
 }
-.type-logo{
-    font-size: 32px;
-    margin: 5px;
-}
-.on-top{
-    z-index: 2;
-}
-.xs-stripe{
-    background: #fff;
-    height: 60px;
-    position: absolute;
-    margin-bottom: 125px;
-    z-index: 1;
-}
+
 /*---------Header---------*/
 #fancy-header{
     font-size: 32px;
@@ -49,12 +65,6 @@ body {
 #not-so-fancy{
     font-size: 28px;
     margin: 40px 0;
-
-}
-
-.nav-link {
-    margin: 5px 10px;
-    color: black;
 }
 
 /*---------Circle Navigation links---------*/
